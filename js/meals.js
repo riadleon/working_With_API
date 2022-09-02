@@ -6,7 +6,7 @@ const loadMeals = () => {
 
 const displayMeals = meals => {
     const mealsContainer = document.getElementById('meal-container');
-    meals.forEach(meal =>{
+    meals.forEach(meal => {
         const mealDiv = document.createElement('div');
         mealDiv.classList.add('col');
         mealDiv.innerHTML = `
